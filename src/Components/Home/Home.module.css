@@ -1,0 +1,216 @@
+.fondoHome {
+    /* background-image: url("https://img.freepik.com/foto-gratis/tabla-vacia-tablero-madera-delante--borroso-madera-marron-perspectiva-sobre-falta-definicion-cafeteria-puede-ser-utilizado-exhibicion-o-montaje-sus-productos-preparado-exhibicion-producto_1253-1455.jpg?w=2000"); */
+    /* height: 100vh; */
+    width: 100%;
+    display: grid;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed; */
+    /* margin-top: -22px; */
+    /* padding-bottom: 18.75em; */
+    background-color: rgb(234, 253, 252);
+    padding-top: 20px
+}
+
+.elementoHome {
+    display: grid;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center; */
+    grid-template-columns: 1fr 1fr;
+    margin-right: 200px;
+}
+
+.divSpinning {
+    /* margin: 0px auto; */
+}
+
+.textoIncio {
+    background-color: rgb(148, 87, 204);
+    /* position: relative; */
+    max-width: 37.5em;
+    height: 25em;
+    display: grid;
+    place-items: center;
+    /* margin-left: 56.25em; */
+    /* margin-top: -25em; */
+    /* margin: 0 auto; */
+}
+
+.textoIncio h1 {
+    font-size: 40px;
+    margin-bottom: -0.9375em;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.textoIncio p {
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    width: 80%;
+}
+
+.divTextoDelicias {
+    margin-top: 6.25em;
+}
+
+.divTextoDelicias h1 {
+    color: blueviolet;
+    font-family: 'Handlee', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.divBtn button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    margin: 0;
+    cursor: pointer;
+    background: linear-gradient( rgb(108, 139, 134), blueviolet);
+    outline: none;
+    padding: 0; 
+    border: none;
+    background: none;
+}
+
+.divBtn button:hover {
+    background: linear-gradient(blueviolet, rgb(108, 139, 134));
+    color: white
+}
+
+.divParaQue {
+    background-color: aqua;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.divParaQue h1 {
+    margin-right: 1000px;
+    padding-top: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.divParaQue p {
+    margin-right: 1000px;
+    width: 500px;
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+}
+
+.divParaQue img {
+    margin-left: 1000px;
+    width: 350px;
+    height: 350px;
+    margin-top: -400px;
+}
+
+.divParaQue {
+    color: black;
+}
+  
+@keyframes animar {
+    0% {-webkit-transform: translate(0px, 0px);}
+    10% {-webkit-transform: translate(0px, 3px);}
+    20% {-webkit-transform: translate(0px, 0px);}
+    30% {-webkit-transform: translate(0px, 3px);}
+    40% {-webkit-transform: translate(0px, 0px);}
+    50% {-webkit-transform: translate(0px, 3px);}
+    60% {-webkit-transform: translate(0px, 0px);}
+    70% {-webkit-transform: translate(0px, 3px);}
+    80% {-webkit-transform: translate(0px, 0px);}
+    90% {-webkit-transform: translate(0px, 3px);}
+    100% {-webkit-transform: translate(0px, 0px);}
+}
+  
+.divParaQue h1:hover {
+    animation: animar 0.8s 1 ;
+}
+
+.oscurito {
+    font-weight: 700;
+}
+
+.oscurito:hover {
+    color: rgb(192, 108, 108);
+}
+
+hr {
+    height: 3px;
+    background-color: white;
+    margin-top: -10px;
+  }
+
+  @media (max-width: 1024px) {
+    .fondoHome {
+        width: 1024px;
+    }
+  }
+
+
+@media (max-width: 1440px) {
+    .fondoHome {
+        background-color: blue;
+        width: 1440px;
+    }
+
+    .divParaQue {
+        width: 1440px;
+    }
+
+    .divParaQue h1 {
+        padding-left: 100px;
+        width: 500px;
+    }
+
+    .divParaQue p {
+        padding-left: 100px;
+    }
+
+    .divParaQue img {
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .fondoHome {
+        background-color: bisque;
+    }
+
+    .divParaQue {
+        position: relative;
+    }
+
+    .divParaQue h1 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .divParaQue p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .divParaQue img {
+        display: none;
+    }
+}
