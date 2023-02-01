@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import SpinningText from "../SpinningText/SpinningText";
+import SpinningText from "../SpinningText/SpinningText"
 import Botonflotante from "../BotonFlotante/BotonFlotante"
-// import empanadas from "../img/empanadas.jpg";
+import empanadas from "../../img/empanadas.jpg"
 // import confianza from "../img/confianza4.png";
 import s from "./Home.module.css";
 
@@ -13,9 +13,9 @@ export default function Home() {
       <div className={s.fondoHome}>
         <div className={s.elementoHome}>
           <div className={s.divSpinning}>
-            {/* <SpinningText text="Las . Empanadas . De . Susanita  ">
+            <SpinningText text="Las . Empanadas . De . Susanita  ">
               <img src={empanadas} alt="empanadas" />
-            </SpinningText> */}
+            </SpinningText>
           </div>
           <div className={s.textoIncio}>
             <h1 class="animate__animated animate__fadeIn">
