@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SpinningText from "../SpinningText/SpinningText"
 import Botonflotante from "../BotonFlotante/BotonFlotante"
 import empanadas from "../../img/empanadas.jpg"
-// import confianza from "../img/confianza4.png";
+import confianza from "../../img/confianza4.png";
 import s from "./Home.module.css";
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
               cuidamos los clientes como la familia.
             </div>
           </p>
-          {/* <img src={confianza} alt="confianza" /> */}
+          <img src={confianza} alt="confianza" />
         </div>
       </div>
     </>

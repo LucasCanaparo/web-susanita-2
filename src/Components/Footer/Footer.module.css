@@ -1,0 +1,36 @@
+.footer {
+    position:relative;
+    float: left;
+    margin-left: 10px;
+    color: gray;
+}
+
+.footer span {
+    display: inline-block;
+}
+
+.footer span a {
+    text-decoration: none;
+}
+
+.footer span a:hover {
+    text-decoration: underline;
+}
+
+.listaFooter {
+    display:  inline-block;
+}
+
+.listaFooter ul li {
+    display:inline-block;
+    margin: 10px;
+}
+
+.listaFooter ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.listaFooter ul li a:hover {
+    text-decoration: underline;
+}
