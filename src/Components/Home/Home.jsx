@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import SpinningText from "../SpinningText/SpinningText";
-// import Botonflotante from "../BotonFlotante";
+import Botonflotante from "../BotonFlotante/BotonFlotante"
 // import empanadas from "../img/empanadas.jpg";
 // import confianza from "../img/confianza4.png";
 import s from "./Home.module.css";
@@ -9,7 +9,7 @@ import s from "./Home.module.css";
 export default function Home() {
   return (
     <>
-      <div>{/* <Botonflotante></Botonflotante> */}</div>
+      <Botonflotante></Botonflotante>
       <div className={s.fondoHome}>
         <div className={s.elementoHome}>
           <div className={s.divSpinning}>
