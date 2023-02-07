@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Nav from "./Components/Nav/Nav";
 import Home from "./Components/Home/Home";
+import Products from "./Components/Products/Products";
 import "./App.css";
 
 function App() {
@@ -11,11 +12,8 @@ function App() {
         <Nav />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          {/* <Route exact path="/home" component={Home} />
-          <Route exact path="/videogames" component={Formualrio} />
-          <Route exact path="/home/:id" component={Detail} /> */}
+          <Route exact path="/allProducts" element={<Products />} />
         </Routes>
-        
         <Footer />
       </div>
     </BrowserRouter>

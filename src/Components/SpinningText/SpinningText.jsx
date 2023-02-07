@@ -1,4 +1,3 @@
-import { Children } from "react"
 import s from "./SpinningText.module.css"
 
 export default function SpinningText({text, children}) {

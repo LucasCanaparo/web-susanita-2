@@ -8,7 +8,7 @@ export default function Footer(){
             <span>
             © 2023{" "}
 				<Link to="/">
-					<a>
+					<a href="/#">
 						LasEmapanasDeSusanita™
 					</a>
 				</Link>
@@ -18,14 +18,14 @@ export default function Footer(){
             <ul>
                 <li>
                 <Link to="/about">
-						<a>
+						<a href="/#">
 							About
 						</a>
 					</Link>
                 </li>
                 <li>
 					<Link to="/contact">
-						<a>
+						<a href="/#">
 							Contact
 						</a>
 					</Link>

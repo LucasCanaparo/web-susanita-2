@@ -1,6 +1,6 @@
 .fondoNav {
     background-color: rgb(148, 87, 204);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .divTitulo h1 {
@@ -9,6 +9,7 @@
     font-family: 'Pacifico', cursive;
     font-weight: 600;
     font-size: 45px;
+    letter-spacing: 5px;
 }
 
 .divTitulo h1:hover { 
@@ -58,15 +59,15 @@
 
 @keyframes animar {
     0% {-webkit-transform: translate(0px, 0px);}
-    10% {-webkit-transform: translate(0px, 3px);}
+    10% {-webkit-transform: translate(3px, 0px);}
     20% {-webkit-transform: translate(0px, 0px);}
-    30% {-webkit-transform: translate(0px, 3px);}
+    30% {-webkit-transform: translate(3px, 0px);}
     40% {-webkit-transform: translate(0px, 0px);}
-    50% {-webkit-transform: translate(0px, 3px);}
+    50% {-webkit-transform: translate(3px, 0px);}
     60% {-webkit-transform: translate(0px, 0px);}
-    70% {-webkit-transform: translate(0px, 3px);}
+    70% {-webkit-transform: translate(3px, 0px);}
     80% {-webkit-transform: translate(0px, 0px);}
-    90% {-webkit-transform: translate(0px, 3px);}
+    90% {-webkit-transform: translate(3px, 0px);}
     100% {-webkit-transform: translate(0px, 0px);}
 }
 
