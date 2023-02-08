@@ -1,37 +1,22 @@
 .fondoHome {
-    /* background-image: url("https://img.freepik.com/foto-gratis/tabla-vacia-tablero-madera-delante--borroso-madera-marron-perspectiva-sobre-falta-definicion-cafeteria-puede-ser-utilizado-exhibicion-o-montaje-sus-productos-preparado-exhibicion-producto_1253-1455.jpg?w=2000"); */
-    /* height: 100vh; */
     width: 100%;
     display: grid;
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-attachment: fixed; */
-    /* margin-top: -22px; */
-    /* padding-bottom: 18.75em; */
     background-color: rgb(234, 253, 252);
     padding-top: 20px
 }
 
 .elementoHome {
     display: grid;
-    /* flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center; */
     grid-template-columns: 1fr 1fr;
     margin-right: 200px;
 }
 
 .textoIncio {
     background-color: rgb(148, 87, 204);
-    /* position: relative; */
     max-width: 37.5em;
     height: 25em;
     display: grid;
     place-items: center;
-    /* margin-left: 56.25em; */
-    /* margin-top: -25em; */
-    /* margin: 0 auto; */
 }
 
 .textoIncio h1 {
