@@ -1,0 +1,76 @@
+.fondoContact {
+    width: 100%;
+    display: grid;
+    background-color: rgb(234, 253, 252);
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.divContact {
+    background-color: white;
+    width: 50%;
+    height: 450px;
+    border-radius: 50px;  
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 150px;
+    margin-bottom: 150px;  
+}
+
+.divContact img {
+    height: 100%;
+    width: 50%;
+    float: left;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+form input {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    color: black;
+    outline: none; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    border: none;
+    font-family: 'Handlee', cursive;
+}
+
+textarea {
+    margin-top: 20px;
+    resize: none;
+    height: 200px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none; 
+    font-family: 'Handlee', cursive;
+}
+
+button {
+    margin-top: 5px;
+    width: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none; 
+    border: none;
+    background: linear-gradient( rgb(108, 139, 134), blueviolet);
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+button:hover {
+    background: linear-gradient(blueviolet, rgb(108, 139, 134));
+    color: white
+}
+
+@media (max-width: 1440px) {
+    .fondoContact {
+        width: 1440px;
+        height: 850px;
+    }
+}
+
