@@ -12,28 +12,28 @@ export default function Nav() {
                     <li>
                         <Link to="/">
 						    <a href="/#">
-							    Home
+							    Inicio
 						    </a>
 					    </Link>
                     </li>
                     <li>
                         <Link to="/allProducts">
 						    <a href="/#">
-                                Products
+                                Productos
 						    </a>
 					    </Link>
                     </li>
                     <li>
                         <Link to="/about">
 						    <a href="/#">
-							    About
+							    Nosotros
 						    </a>
 					    </Link>
                     </li>
                     <li>
                         <Link to="/contact">
 						    <a href="/#">
-							    Contact
+							    Contactanos
 						    </a>
 					    </Link>
                     </li>
