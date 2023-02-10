@@ -24,12 +24,19 @@
     margin-bottom: -0.9375em;
     color: white;
     font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 1px #000
+}
+
+.textoIncio h1 hr {
+    box-shadow: 1px 1px 1px #000
 }
 
 .textoIncio p {
-    font-family: 'Handlee', cursive;
-    font-size: 25px;
+    font-size: 30px;
     width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .divTextoDelicias {
@@ -61,11 +68,12 @@
     padding: 0; 
     border: none;
     background: none;
+    transition: color 0.8s linear 0.2s
 }
 
 .divBtn button:hover {
     background: linear-gradient(blueviolet, rgb(108, 139, 134));
-    color: white
+    color: white;
 }
 
 .divParaQue {
@@ -166,10 +174,6 @@ hr {
 }
 
 @media (max-width: 375px) {
-
-    .fondoHome {
-        background-color: bisque;
-    }
 
     .divParaQue {
         position: relative;

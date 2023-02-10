@@ -19,14 +19,14 @@ export default function Footer(){
                 <li>
                 <Link to="/about">
 						<a href="/#">
-							About
+							Nosotros
 						</a>
 					</Link>
                 </li>
                 <li>
 					<Link to="/contact">
 						<a href="/#">
-							Contact
+							Deja tu opinión
 						</a>
 					</Link>
 				</li>

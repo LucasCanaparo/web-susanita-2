@@ -1,5 +1,6 @@
 .fondoNav {
     background-color: rgb(148, 87, 204);
+    height: 180px;
 }
 
 .divTitulo h1 {
@@ -9,6 +10,8 @@
     font-weight: 600;
     font-size: 45px;
     letter-spacing: 5px;
+    color: white;
+    text-shadow: 2px 2px 1px #000
 }
 
 .divTitulo h1:hover { 
@@ -21,7 +24,7 @@
 
 .listaNav ul li {
     display:inline-block;
-    margin: 30px;
+    margin-right: 25px;
     padding-right: 50px;
 }
 

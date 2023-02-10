@@ -33,7 +33,7 @@ export default function Nav() {
                     <li>
                         <Link to="/contact">
 						    <a href="/#">
-							    Contactanos
+							    Deja tu opinión
 						    </a>
 					    </Link>
                     </li>

@@ -12,14 +12,14 @@
     width: 50%;
     height: 450px;
     border-radius: 50px;  
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 2px 1px rgb(148, 87, 204);
     margin-top: 150px;
     margin-bottom: 150px;  
 }
 
 .divContact img {
-    height: 100%;
-    width: 50%;
+    height: 400px;
+    width: 400px;
     float: left;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
@@ -32,9 +32,10 @@ form input {
     width: 30%;
     color: black;
     outline: none; 
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px 1px rgb(148, 87, 204);
     border: none;
     font-family: 'Handlee', cursive;
+    font-size: 15px;
 }
 
 textarea {
@@ -43,10 +44,12 @@ textarea {
     height: 200px;
     width: 30%;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px 1px rgb(148, 87, 204);
     border: none;
     outline: none; 
     font-family: 'Handlee', cursive;
+    font-size: 15px;
+    padding-top: 10px;
 }
 
 button {
@@ -60,6 +63,7 @@ button {
     background: linear-gradient( rgb(108, 139, 134), blueviolet);
     font-family: 'Pacifico', cursive;
     font-size: 20px;
+    transition: color 0.8s linear 0.2s
 }
 
 button:hover {

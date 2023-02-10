@@ -10,7 +10,7 @@
     background: linear-gradient(rgb(148, 87, 204), aqua);
     width: 100%;
     height: 280px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 .divTituloAbout h1 {
@@ -24,6 +24,11 @@
     font-family: 'Pacifico', cursive;
     color: white;
     text-shadow: -2px -2px 1px #000
+}
+
+.divTituloAbout h1:hover {
+    color: black;
+    transition: color 0.5s linear
 }
 
 /* ////////////////////////// Monica ///////////////////////////////// */
@@ -53,8 +58,12 @@
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Pacifico', cursive;
+    padding-right: 30px;
+    text-shadow: -2px -2px 1px #000;
+    letter-spacing: 5px;
+    transition: color 0.5s linear
 }
 
 .divMonicaHijo h1:hover {
@@ -101,8 +110,11 @@
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Pacifico', cursive;
+    text-shadow: -2px -2px 1px #000;
+    letter-spacing: 5px;
+    transition: color 0.5s linear
 }
 
 .divLucasHijo h1:hover {
@@ -133,5 +145,9 @@
     }
     .divTituloAbout {
         width: 100%;
+    }
+    .divMonicaHijo h1 {
+        font-size: 30px;
+        padding-right: 40px;
     }
 }
