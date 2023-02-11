@@ -32,15 +32,21 @@
 }
 
 .textoIncio p {
-    font-size: 30px;
+    font-size: 25px;
     width: 80%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Handlee', cursive;
     font-style: italic;
-    font-weight: 600;
+}
+
+.contendor {
+    position: relative;
+    display: grid;
+    place-items: center;
 }
 
 .divTextoDelicias {
     margin-top: 6.25em;
+    width: 50%;
 }
 
 .divTextoDelicias h1 {
@@ -48,6 +54,8 @@
     font-family: 'Handlee', cursive;
     font-size: 40px;
     text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 3px;
 }
 
 .divBtn {
@@ -105,6 +113,7 @@
     width: 350px;
     height: 350px;
     margin-top: -400px;
+    float: center;
 }
 
 .divParaQue {
@@ -113,20 +122,20 @@
   
 @keyframes animar {
     0% {-webkit-transform: translate(0px, 0px);}
-    10% {-webkit-transform: translate(0px, 3px);}
+    10% {-webkit-transform: translate(0px, 5px);}
     20% {-webkit-transform: translate(0px, 0px);}
-    30% {-webkit-transform: translate(0px, 3px);}
+    30% {-webkit-transform: translate(0px, 5px);}
     40% {-webkit-transform: translate(0px, 0px);}
-    50% {-webkit-transform: translate(0px, 3px);}
+    50% {-webkit-transform: translate(0px, 5px);}
     60% {-webkit-transform: translate(0px, 0px);}
-    70% {-webkit-transform: translate(0px, 3px);}
+    70% {-webkit-transform: translate(0px, 5px);}
     80% {-webkit-transform: translate(0px, 0px);}
-    90% {-webkit-transform: translate(0px, 3px);}
+    90% {-webkit-transform: translate(0px, 5px);}
     100% {-webkit-transform: translate(0px, 0px);}
 }
   
 .divParaQue h1:hover {
-    animation: animar 0.8s 1 ;
+    animation: animar 1s 1 ;
 }
 
 .oscurito {

@@ -23,7 +23,8 @@
     font-weight: 700;
     font-family: 'Pacifico', cursive;
     color: white;
-    text-shadow: -2px -2px 1px #000
+    text-shadow: -2px -2px 1px #000;
+    transition: color 0.5s linear
 }
 
 .divTituloAbout h1:hover {
@@ -142,6 +143,7 @@
 @media (max-width: 1440px) {
     .fondoAbout {
         width: 1440px;
+        height: 100vh;
     }
     .divTituloAbout {
         width: 100%;

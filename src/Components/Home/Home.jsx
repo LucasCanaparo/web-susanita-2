@@ -30,6 +30,7 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className={s.contendor}>
         <div className={s.divTextoDelicias}>
           <h1>¡Deleitate con nuestras delicias!</h1>
         </div>
@@ -37,6 +38,7 @@ export default function Home() {
           <Link to="allProducts">
             <button>Ven a ver</button>
           </Link>
+        </div>
         </div>
         <div className={s.divParaQue}>
           <h1>¿Para qué nació este negocio?</h1>
