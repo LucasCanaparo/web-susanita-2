@@ -19,7 +19,7 @@ export default function About() {
                 <div className={s.divLucasHijo}>
                     <img src={lucasimg} alt="Lucas" />
                     <h1>Lucas Canaparo</h1>
-                    <p>"Disfrute mucho realizando esta paginda, que a pesar de ser meramente publicitaria, fue una gran experiencia"</p>
+                    <p>"Disfrute mucho realizando esta página, que a pesar de ser meramente publicitaria, fue una gran experiencia"</p>
                 </div>
             </div>
         </div>

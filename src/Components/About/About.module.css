@@ -46,6 +46,7 @@
     width: 50%;
     height: 250px;
     border-radius: 150px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .divMonicaHijo img {
@@ -98,6 +99,7 @@
     width: 50%;
     height: 250px;
     border-radius: 150px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .divLucasHijo img {
@@ -133,17 +135,9 @@
     text-align: center;
 }
 
-
-
-
-
-
-
-
 @media (max-width: 1440px) {
     .fondoAbout {
         width: 1440px;
-        height: 100vh;
     }
     .divTituloAbout {
         width: 100%;

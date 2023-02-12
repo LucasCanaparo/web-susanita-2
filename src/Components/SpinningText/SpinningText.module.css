@@ -23,6 +23,7 @@
     top: 0;
     left: 50%;
     transform-origin: 0 200px;
+    font-family: 'Handlee', cursive;
 }
 /* las letras en trasnform-origin se desfasan las mitad del width del padre */
 
