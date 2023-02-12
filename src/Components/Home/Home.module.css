@@ -113,7 +113,6 @@
     width: 350px;
     height: 350px;
     margin-top: -400px;
-    float: center;
 }
 
 .divParaQue {
@@ -152,13 +151,6 @@ hr {
     margin-top: -10px;
   }
 
-  @media (max-width: 1024px) {
-    .fondoHome {
-        width: 1024px;
-    }
-  }
-
-
 @media (max-width: 1440px) {
     .fondoHome {
         width: 1440px;
@@ -178,7 +170,7 @@ hr {
     }
 
     .divParaQue img {
-        padding-right: 100px;
+        margin-left: 400px;
     }
 }
 

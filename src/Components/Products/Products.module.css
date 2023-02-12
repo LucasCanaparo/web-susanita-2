@@ -124,6 +124,10 @@
         width: 1440px;
     }
 
+    .divCriolla {
+        margin-left: 30%;
+    }
+
     .divCriolla p {
         display: flex;
         justify-content: center;
