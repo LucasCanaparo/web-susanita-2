@@ -34,7 +34,7 @@
     /* background-color: rgb(148, 87, 204); */
     background-color: aqua;
     margin-bottom: 100px;
-    width: 60%;
+    /* width: 60%; */
     height: 250px;
     border-top-left-radius: 130px;
     border-bottom-left-radius: 130px;
@@ -80,7 +80,7 @@
     background-color: aqua;
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 60%;
+    width: 70%;
     height: 250px;
     border-top-right-radius: 130px;
     border-bottom-right-radius: 130px;
